@@ -11,7 +11,7 @@ package com.mycompany.interfazgrupal;
 public class InterfazGrupal {
 
     public static void main(String[] args) {
-    InterfazGrupal objInterfaz = new InterfazGrupal();
-    
+    Interfaz1 objInterfaz1 = new Interfaz1();
+        objInterfaz1.setVisible(true);
     }
 }
