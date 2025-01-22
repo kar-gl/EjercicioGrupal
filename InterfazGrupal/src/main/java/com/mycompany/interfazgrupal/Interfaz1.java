@@ -264,6 +264,16 @@ public class Interfaz1 extends javax.swing.JFrame {
 
     private void bttMostarRegistroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bttMostarRegistroActionPerformed
         // TODO add your handling code here:
+        String datosMostrar = "";
+        for (int i = 0; i < datosUsuario.length; i++) {
+            if ( i == 3) {
+            datosMostrar = datosMostrar  + datosUsuario[i];
+            } else {
+            datosMostrar = datosMostrar  + datosUsuario[i]+ ",";
+            }
+            
+        }
+       txtaMostrario.setText(datosMostrar);
       
     }//GEN-LAST:event_bttMostarRegistroActionPerformed
 
