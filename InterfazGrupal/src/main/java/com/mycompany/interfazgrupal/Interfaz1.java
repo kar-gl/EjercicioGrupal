@@ -286,6 +286,17 @@ public class Interfaz1 extends javax.swing.JFrame {
             servicios = servicios + ","+"MATERIAL DE APOYO";
         }
 
+        String turno = "";
+        if (mañana) {
+            turno = "MAÑANA";
+        } else if (tarde) {
+            turno = "TARDE";
+        }
+
+        datosUsuario[0] = nombre;
+        datosUsuario[1] = categoria;
+        datosUsuario[2] = servicios;
+        datosUsuario[3] = turno;
 
        
     }//GEN-LAST:event_bttRegistarParticipanteActionPerformed
